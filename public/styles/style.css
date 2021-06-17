@@ -1,0 +1,28 @@
+.container{
+    /* border: 1px solid black ;
+    height: 100%;
+    width: 100%; */
+    
+  
+    
+   
+}
+
+
+.supercontainer{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 40px;
+   
+   
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+
